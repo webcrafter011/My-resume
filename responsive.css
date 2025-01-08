@@ -1,0 +1,101 @@
+@media only screen and (max-width: 700px) {
+  #intro h1 {
+    font-size: 39px;
+  }
+  .btn-shine {
+    font-size: 17px;
+    animation: shine 59s infinite linear;
+  }
+  #minicircle {
+    display: none;
+  }
+  lottie-player {
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    top: -51px;
+    right: -80px;
+  }
+  @-moz-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 4565px;
+    }
+    100% {
+      background-position: 4565px;
+    }
+  }
+  @-webkit-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 4565px;
+    }
+    100% {
+      background-position: 4565px;
+    }
+  }
+  @-o-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 4565px;
+    }
+    100% {
+      background-position: 4565px;
+    }
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 4565px;
+    }
+    100% {
+      background-position: 4565px;
+    }
+  }
+  .desc {
+    margin-right: 42px;
+  }
+  #profile {
+    width: 74%;
+  }
+}
+
+#bg {
+  width: 100%;
+  height: fit-content;
+  --color: rgba(107, 107, 107, 0.3);
+  background-color: black;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
+}

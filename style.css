@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 500; */
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
+  color: white;
+}
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  /* background-color: black; */
+  overflow-x: hidden;
+}
+#minicircle {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  z-index: 999;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.4s;
+  z-index: 0;
+}
+#cat {
+  display: flex;
+  position: relative;
+}
+lottie-player {
+  margin-left: 20px;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: -88px;
+  right: -62px;
+}
+#intro {
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#intro h1 {
+  font-size: 59px;
+}
+.desc {
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-right: 29px;
+}
+.desc h5 {
+  font-size: 16px;
+}
+
+#profile {
+  /* border: 1px solid red; */
+  width: 65%;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 65px;
+}
+.name {
+  border-bottom: 1px solid white;
+}
+.container {
+  padding-top: 19px;
+}
+.container p {
+  font-size: 20px;
+}
+.container ul {
+  margin-left: 20px;
+}
